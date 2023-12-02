@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "day1": " npx tsc --lib 'ES2022' --outDir ./day1/dist/ ./day1/index.ts && cp ./day1/input.txt ./day1/dist && node ./day1/dist/index.js",
-    "test:day1": "jest -t day1"
+    "day2": " npx tsc --lib 'ES2022' --outDir ./day2/dist/ ./day2/index.ts && cp ./day2/input.txt ./day2/dist && node ./day2/dist/index.js",
+    "test:day1": "jest -t day1",
+    "test:day2": "jest -t day2"
   },
   "author": "Wolfgang Kreminger",
   "license": "MIT",
